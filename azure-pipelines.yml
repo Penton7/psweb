@@ -1,6 +1,4 @@
-# Docker
 - task: Docker@2
   inputs:
-    containerRegistry: 'technorelyappdocker'
     command: 'build'
-    Dockerfile: 'Dockerfile'
+    Dockerfile: '**/Dockerfile'
